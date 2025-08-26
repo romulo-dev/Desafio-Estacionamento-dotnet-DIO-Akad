@@ -3,8 +3,15 @@
 // Coloca o encoding para UTF8 para exibir acentuação
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-decimal precoInicial = 0;
-decimal precoPorHora = 0;
+List<Carro> carros = new List<Carro>();
+
+carros.Add(new Carro("xyz1430", "Cinza"));
+carros.Add(new Carro("bwj5612", "Cinza"));
+carros.Add(new Carro("pod1430", "Vermelho"));
+carros.Add(new Carro("uit1830", "Azul"));
+
+decimal precoInicial = 5M;
+decimal precoPorHora = 2M;
 
 Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
                   "Digite o preço inicial:");
