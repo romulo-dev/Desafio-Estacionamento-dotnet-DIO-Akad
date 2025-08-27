@@ -5,10 +5,10 @@ Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 List<Veiculo> veiculos = new List<Veiculo>();
 
-Veiculos.Add(new Veiculo("xyz1430", "Cinza"));
-Veiculos.Add(new Veiculo("bwj5612", "Cinza"));
-Veiculos.Add(new Veiculo("pod1430", "Vermelho"));
-Veiculos.Add(new Veiculo("uit1830", "Azul"));
+veiculos.Add(new Veiculo("xyz1430", "Cinza"));
+veiculos.Add(new Veiculo("bwj5612", "Cinza"));
+veiculos.Add(new Veiculo("pod1430", "Vermelho"));
+veiculos.Add(new Veiculo("uit1830", "Azul"));
 
 decimal precoInicial = 5M;
 decimal precoPorHora = 2M;
