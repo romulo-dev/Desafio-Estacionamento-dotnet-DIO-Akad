@@ -36,3 +36,12 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Mundaças e novas implementaçções
+- Criei a classe Veículo com placa, cor e um atributo booleano chamado EstaEstacionado para mostrar se o carro está estacionado no estacionamento
+- Na classe Program.cs eu criei uma lista de veiculos para puder cadastrar veículos no sistema, adicionei alguns veículos na lista em Program.cs
+- Alterei o nome do método AdicionarVeiculo para AdicionarVeiculoEstacionamento para receber a lista de carros cadastrados no sistema como parâmetro, com isso ele pede para digitar
+a placa e essa placa caso seja de um carro existente no sistema faz com que o veículo seja estacionado no estacionamento, além de ser inserido em uma lista de veículos
+chamada ve (Mudei o nome da lista inicial para ve na classe Estacionamento), a lista ve representa os carros estacionados.
+- Mudei a lógica dos métodos RemoverVeiculo e ListarVeiculos
+- Implementei um método chamado alteraEstadoEstacionamento na classe Veículo para setar se o veículo está estacionado ou não nos métodos da classe Estacionamento
