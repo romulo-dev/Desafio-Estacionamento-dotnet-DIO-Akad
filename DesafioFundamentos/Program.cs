@@ -3,12 +3,12 @@
 // Coloca o encoding para UTF8 para exibir acentuação
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-List<Carro> carros = new List<Carro>();
+List<Veiculo> veiculos = new List<Veiculo>();
 
-carros.Add(new Carro("xyz1430", "Cinza"));
-carros.Add(new Carro("bwj5612", "Cinza"));
-carros.Add(new Carro("pod1430", "Vermelho"));
-carros.Add(new Carro("uit1830", "Azul"));
+Veiculos.Add(new Veiculo("xyz1430", "Cinza"));
+Veiculos.Add(new Veiculo("bwj5612", "Cinza"));
+Veiculos.Add(new Veiculo("pod1430", "Vermelho"));
+Veiculos.Add(new Veiculo("uit1830", "Azul"));
 
 decimal precoInicial = 5M;
 decimal precoPorHora = 2M;
@@ -39,7 +39,7 @@ while (exibirMenu)
     switch (Console.ReadLine())
     {
         case "1":
-            es.AdicionarVeiculo();
+            es.AdicionarVeiculoEstacionamento(veiculos);
             break;
 
         case "2":

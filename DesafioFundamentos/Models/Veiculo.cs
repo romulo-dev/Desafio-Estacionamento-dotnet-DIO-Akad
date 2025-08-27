@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 namespace DesafioFundamentos.Models
 {
-    public class Carro
+    public class Veiculo
     {
         public string Placa { get; set; }
         public string Cor { get; set; }
         public bool EstaEstacionado { get; set; }
 
-        public Carro(string placa, string cor)
+        public Veiculo(string placa, string cor)
         {
             Placa = placa;
             Cor = cor;
@@ -20,13 +20,13 @@ namespace DesafioFundamentos.Models
 
         public void alteraEstadoEstacionamento()
         {
-            if (!EstaEstacionado)
+            if (!this.EstaEstacionado)
             {
-                EstaEstacionado = true;
+                this.EstaEstacionado = true;
             }
             else
             {
-                EstaEstacionado = false;
+                this.EstaEstacionado = false;
             }
         }
     }
